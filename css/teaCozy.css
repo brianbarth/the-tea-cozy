@@ -1,0 +1,137 @@
+/* The Tea Cozy Stylesheet */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1280px;
+	margin: auto;
+	background-color: black;
+	font-family: helvetica;
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+
+}
+header {
+	position: fixed;
+	top: 0;
+	height: 69px;
+	width: 1280px;
+	margin: auto;
+	border-bottom: 1px seashell solid;
+	background-color: black;	
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+.navLogo {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-between;
+}
+.navLogo img {
+	margin-left: 10px;
+}
+.navList {
+	margin-right: 10px;
+	display: flex;
+	min-width: 430px;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	align-content: space-between;
+}
+a {
+	color: seashell;
+	padding-left: 20px;
+}
+.contentPic img {
+	height: 200px;
+	width: 300px;
+}
+.mission {
+	display: flex;
+	align-items: center;
+	margin: 70px auto;
+	width: 1200px;
+	height: 700px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+#missionWords {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 120px;
+	background-color: black;
+}
+.content {
+	width: 1000px;
+	text-align: center;
+	margin: auto;
+}.content h2 {
+	margin-bottom: 20px;
+}
+.bigPicBox {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	margin-bottom: 71px;
+}
+.bigPicBox h3 {
+	padding: 10px 0 25px 0;
+}
+.content p {
+	padding-bottom: 20px;
+}
+#myrtleTea {
+	padding-left: 165px;
+}
+#bizarreTea {
+	padding-right: 165px;
+}
+.locationsBox {
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+	background-position: center;
+}
+.locationsBox h2 {
+	position: absolute;
+	top: 1531px;
+	padding: 60px 0 15px 0;
+}
+.smallLocation {
+	background-color: black;
+	opacity: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 300px;
+	height: 300px;
+}
+.contact {
+	width: 1280px;
+	height: 200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.copy {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+	height: 80px;
+	margin: 0 0 30px 20px;
+}
