@@ -13,7 +13,10 @@ body {
 	color: seashell;
 	opacity: 0.9;
 	text-align: center;
-
+}
+.bigContainer {
+	width: 1280px;
+	margin: auto;
 }
 header {
 	position: fixed;
